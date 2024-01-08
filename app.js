@@ -35,6 +35,7 @@ var createNewTaskElement=function(taskString){
     listItem.className='list-item';
     label.innerText=taskString;
     label.className='task';
+    deleteButtonImg.className='delete-button-img';
 
     //Each elements, needs appending
     checkBox.type="checkbox";
